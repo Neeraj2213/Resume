@@ -15,7 +15,7 @@ module.exports = {
       fontFamily:{
         // sans: ['Montserrat', 'sans-serif'],
         // montserrat_bold: ['Montserrat-Bold', 'sans-serif']
-        sans: ['Poppins-Regular', 'sans-serif']
+        sans: ['Poppins', 'sans-serif']
       },
       spacing: {
         '30': '7.5rem',
