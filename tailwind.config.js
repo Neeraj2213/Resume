@@ -5,13 +5,16 @@ module.exports = {
     extend: {
       colors:{
         'theme_drk_blue': '#003147',
+        'theme_light_blue': '#CDF0FF',
+        'theme_blue_font': '#2DAFE8',
         'theme_primary': '#1C1BC7',
         'theme_primary_dark': '#15159d',
         'theme_secondary': '#B31A89',
         'theme_tertiary': '#7030A0'
       },
       fontFamily:{
-        // sans: ['Montserrat-Regular', 'sans-serif']
+        // sans: ['Montserrat', 'sans-serif'],
+        // montserrat_bold: ['Montserrat-Bold', 'sans-serif']
         sans: ['Poppins-Regular', 'sans-serif']
       },
       spacing: {
