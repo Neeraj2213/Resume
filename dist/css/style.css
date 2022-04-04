@@ -32,12 +32,6 @@
 4. Use the user's configured `sans` font-family by default.
 */
 
-@font-face {
-  font-family: Montserrat;
-  src: url('../../fonts/Montserrat.ttf');
-}
-
-
 html {
   line-height: 1.5;
   /* 1 */
@@ -48,8 +42,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  /*font-family: Montserrat, sans-serif;*/
-  font-family: 'Montserrat', sans-serif;
+  font-family: Poppins-Regular, sans-serif;
   /* 4 */
 }
 
@@ -529,10 +522,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 2rem;
 }
 
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
 .flex {
   display: flex;
 }
@@ -867,10 +856,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 0.25rem;
 }
 
-.pt-3 {
-  padding-top: 0.75rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -913,10 +898,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .uppercase {
   text-transform: uppercase;
-}
-
-.leading-3 {
-  line-height: .75rem;
 }
 
 .tracking-wide {
